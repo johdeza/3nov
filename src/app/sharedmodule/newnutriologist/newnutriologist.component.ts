@@ -23,7 +23,7 @@ export class NewnutriologistComponent implements OnInit {
     addressClinic: new FormControl('', Validators.required),
     telephone: new FormControl('', Validators.required),
     identificationCard: new FormControl('', Validators.required),
-    roleId: new FormControl('1', Validators.required),
+    roleId: new FormControl('2', Validators.required),
   })
 
   savedNutriologo() {
